@@ -11,9 +11,20 @@ Aplikasi Analisis Sentimen Pelanggan Minimarket (Alfamart & Indomaret) dari data
 - Latih model deep learning BiLSTM tanpa coding.
 - Tampilkan hasil prediksi, metrik, dan visualisasi interaktif:
   - Word Cloud
+    ![image](https://github.com/user-attachments/assets/216a66b2-89e9-4440-a3b2-324d82d71888)
+
+  - Pie Chart Sentiment
+    ![image](https://github.com/user-attachments/assets/3c933a00-259c-411c-a7cb-198442ab7e36)
+
   - Classification Report (Precision, Recall, F1, Akurasi)
+    ![image](https://github.com/user-attachments/assets/a7b48a19-4788-4023-a488-4610c28085a4)
+
   - Confusion Matrix
+    ![image](https://github.com/user-attachments/assets/67f51596-b9bb-4e8b-8cbb-f0f7dd4b4c69)
+
   - Grafik Riwayat Training
+    ![image](https://github.com/user-attachments/assets/3b0acd72-cb53-4af6-b7d7-294278f348f9)
+
 - Friendly untuk peneliti, mahasiswa, dan siapa saja yang ingin eksplorasi analisis sentimen media sosial.
 
 ---
