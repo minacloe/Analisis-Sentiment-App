@@ -1,4 +1,4 @@
-🚀 Download the Latest Release
+🚀 Download the Latest Release\n
 Looking to try out the application right away?
 You can download the latest executable file here:
 
