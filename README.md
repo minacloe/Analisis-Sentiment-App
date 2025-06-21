@@ -59,6 +59,6 @@ Pastikan file CSV memiliki **dua kolom** utama:
 **Contoh:**
 ```csv
 text,sentiment
-"kasirnya ramah dan cepat",positif
-"antriannya lama, pelayanan kurang",negatif
+kasirnya ramah dan cepat,positif
+antriannya lama, pelayanan kurang,negatif
 ...
