@@ -41,12 +41,18 @@ Aplikasi Analisis Sentimen Pelanggan Minimarket (Alfamart & Indomaret) dari data
 
 4. **Pilih file CSV dataset**  
    Klik tombol **“Pilih File CSV”**, pilih dataset dari folder `/Dataset`.
+   ![Screenshot 2025-06-22 012619](https://github.com/user-attachments/assets/d6867fa0-72fd-422a-aaa5-e75f81eaa4af)
 
-5. **Klik “Latih Model BiLSTM”**  
+
+6. **Klik “Latih Model BiLSTM”**  
    Tunggu proses training selesai (progres dapat dilihat di aplikasi).
+   ![Screenshot 2025-06-22 012649](https://github.com/user-attachments/assets/77adcdd0-1784-4662-9f7c-4bd3d5340996)
+    ![Screenshot 2025-06-22 012704](https://github.com/user-attachments/assets/e614723a-2ca6-408f-a0cb-9714af19c179)
 
-6. **Eksplorasi hasil**  
+
+8. **Eksplorasi hasil**  
    Buka tab “Hasil Prediksi” dan gunakan tombol-tombol visualisasi yang tersedia.
+    ![image](https://github.com/user-attachments/assets/0b2936b8-3c1e-4fb7-b3d4-6f8a281c2283)
 
 ---
 
