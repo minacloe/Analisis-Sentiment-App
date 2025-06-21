@@ -21,7 +21,13 @@ Aplikasi Analisis Sentimen Pelanggan Minimarket (Alfamart & Indomaret) dari data
 ## Cara Menggunakan (Windows)
 
 1. **Download file .exe aplikasi**
-   - [Klik di sini untuk unduh][![Download](https://img.shields.io/badge/Download%20File%20Exe-Google%20Drive-blue?logo=google-drive)]([https://drive.google.com/file/d/1oEa-mEnayVHquJGav-HOYQ-oZAowvmnS/view?usp=sharing](https://drive.google.com/file/d/1i_uUr7ZvG6AFkPJu3k8LLv_nbPPVkwWD/view?usp=sharing)) (atau cek folder 'Application` di repo ini).
+   - 🚀 Download Aplikasi EXE
+
+[![Download Aplikasi Analisis Sentimen (.exe)](https://img.shields.io/badge/Download%20EXE-Analisis--Sentimen-blue?logo=windows&style=for-the-badge)](https://drive.google.com/uc?export=download&id=1i_uUr7ZvG6AFkPJu3k8LLv_nbPPVkwWD)
+
+> **Klik tombol di atas untuk mengunduh aplikasi Analisis Sentimen versi .exe**  
+> (Pastikan sudah login Google jika download lewat Google Drive!)
+
    - Tidak perlu install Python/lib tambahan.
 
 2. **Download dataset contoh** dari folder [`/Dataset`](./Dataset):
