@@ -51,7 +51,7 @@ Aplikasi Analisis Sentimen Pelanggan Minimarket (Alfamart & Indomaret) dari data
    Double-click `appInteraktifAnalisisSentiment.exe`🖥️
 
 4. **Pilih file CSV dataset**  
-   Klik tombol **“Pilih File CSV”**, pilih dataset dari folder `/Dataset`.📑
+   Klik tombol **“Pilih File CSV”**, pilih dataset dari folder [`/Dataset`](./Dataset).📑
 
    ![Screenshot 2025-06-22 012619](https://github.com/user-attachments/assets/d6867fa0-72fd-422a-aaa5-e75f81eaa4af)
 
