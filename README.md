@@ -3,7 +3,7 @@
 Aplikasi Analisis Sentimen Pelanggan Minimarket (Alfamart & Indomaret) dari data Twitter, menggunakan Deep Learning **BiLSTM**, berbasis GUI (antarmuka visual) dan **langsung bisa dijalankan (.exe) tanpa instalasi Python**.
 
 ---
-![Uploading Screenshot 2025-06-22 010842.png…]()
+![Image](https://github.com/user-attachments/assets/a2f9e448-cf1b-46a0-b054-0fb4f72bc030)
 
 ## Fitur Aplikasi
 
