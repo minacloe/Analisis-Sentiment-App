@@ -1,67 +1,57 @@
-# Analisis Sentimen App (BiLSTM GUI)
+# Analisis Sentimen App (BiLSTM GUI - versi .exe)
 
-Aplikasi **Analisis Sentimen Pelanggan Minimarket (Alfamart & Indomaret) di Media Sosial Twitter** berbasis antarmuka grafis (GUI) dengan model **Bidirectional LSTM (BiLSTM)**.  
-Cocok untuk penelitian, pembelajaran machine learning, maupun demo analisis data berbasis AI.
-
----
-
-## Fitur Utama
-
-- 🔎 **Import Dataset CSV** dengan kolom `text` (ulasan) dan `sentiment` (label).
-- 🚀 **Latih Model Deep Learning BiLSTM** langsung dari GUI (tanpa coding!).
-- 📊 **Tampilan Data dan Hasil Prediksi** secara interaktif.
-- ☁️ **Word Cloud**: Visualisasi kata-kata populer.
-- 📜 **Classification Report**: Akurasi, Precision, Recall, F1-Score.
-- 🔢 **Confusion Matrix**: Matriks perbandingan label asli vs prediksi.
-- 📈 **Grafik Riwayat Training** (akurasi & loss tiap epoch).
-- 💻 **Tanpa instalasi rumit**: Bisa dibuat file .exe dan langsung digunakan di Windows.
+Aplikasi Analisis Sentimen Pelanggan Minimarket (Alfamart & Indomaret) dari data Twitter, menggunakan Deep Learning **BiLSTM**, berbasis GUI (antarmuka visual) dan **langsung bisa dijalankan (.exe) tanpa instalasi Python**.
 
 ---
 
-## Screenshot
+## Fitur Aplikasi
 
-<img src="https://github.com/minacloe/Analisis-Sentiment-App/raw/main/screenshot-app.png" alt="Tampilan Aplikasi" width="700"/>
-
----
-
-## Cara Penggunaan
-
-1. **Download / Clone repositori ini**
-    ```bash
-    git clone https://github.com/minacloe/Analisis-Sentiment-App.git
-    cd Analisis-Sentiment-App
-    ```
-
-2. **Instal Library Python (minimal Python 3.8/3.11)**
-    ```bash
-    pip install -r requirements.txt
-    ```
-    **Library utama:**  
-    - tensorflow, scikit-learn, pandas, numpy, matplotlib, seaborn, pillow, wordcloud
-
-3. **Jalankan aplikasi**
-    ```bash
-    python appInteraktifAnalisisSentiment.py
-    ```
-
-4. **Import file CSV** yang berisi data ulasan, minimal kolom `text` dan `sentiment`.
-
-5. **Klik “Latih Model BiLSTM”** → tunggu proses training selesai.
-
-6. **Eksplorasi fitur visualisasi dan hasil prediksi** pada tab yang tersedia.
+- Import dataset CSV dari folder `Dataset/` (siap pakai).
+- Latih model deep learning BiLSTM tanpa coding.
+- Tampilkan hasil prediksi, metrik, dan visualisasi interaktif:
+  - Word Cloud
+  - Classification Report (Precision, Recall, F1, Akurasi)
+  - Confusion Matrix
+  - Grafik Riwayat Training
+- Friendly untuk peneliti, mahasiswa, dan siapa saja yang ingin eksplorasi analisis sentimen media sosial.
 
 ---
 
-## Format Dataset Contoh
+## Cara Menggunakan (Windows)
 
-File CSV harus memuat kolom:
-- `text` : Ulasan/kata-kata dari pelanggan.
-- `sentiment` : Label sentimen (misal: positif, negatif, netral).
+1. **Download file .exe aplikasi**
+   - [Klik di sini untuk unduh](https://github.com/minacloe/Analisis-Sentiment-App/releases) (atau cek file `appInteraktifAnalisisSentiment.exe` di repo ini).
+   - Tidak perlu install Python/lib tambahan.
+
+2. **Download dataset contoh** dari folder [`/Dataset`](./Dataset):
+   - File yang direkomendasikan:
+     - `tweets_pelayanan_Alfamart_Cleansing_labeled.csv`
+     - `tweets_pelayanan_Indomaret_Cleansing_labeled.csv`
+     - `tweets_pelayanan_gabungan.csv`
+
+3. **Jalankan aplikasi**  
+   Double-click `appInteraktifAnalisisSentiment.exe`
+
+4. **Pilih file CSV dataset**  
+   Klik tombol **“Pilih File CSV”**, pilih dataset dari folder `/Dataset`.
+
+5. **Klik “Latih Model BiLSTM”**  
+   Tunggu proses training selesai (progres dapat dilihat di aplikasi).
+
+6. **Eksplorasi hasil**  
+   Buka tab “Hasil Prediksi” dan gunakan tombol-tombol visualisasi yang tersedia.
+
+---
+
+## Format Dataset
+
+Pastikan file CSV memiliki **dua kolom** utama:  
+- `text` : Teks/ulasan pelanggan  
+- `sentiment` : Label sentimen (`positif`, `negatif`, `netral`)
 
 **Contoh:**
 ```csv
 text,sentiment
-"pelayanan kasir cepat dan ramah",positif
-"parkir sempit dan antri lama",negatif
-"barang lengkap dan harga murah",positif
+"kasirnya ramah dan cepat",positif
+"antriannya lama, pelayanan kurang",negatif
 ...
